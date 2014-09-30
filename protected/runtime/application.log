@@ -1,0 +1,231 @@
+2014/09/30 15:43:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (73)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:43:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\wwwroot\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(73): CActiveRecord->save()
+#3 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#14 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project/create
+---
+2014/09/30 15:44:10 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (73)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:44:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\wwwroot\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(73): CActiveRecord->save()
+#3 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#14 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project/create
+---
+2014/09/30 15:46:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (73)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:46:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\wwwroot\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(73): CActiveRecord->save()
+#3 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#14 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project/create
+---
+2014/09/30 15:50:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (73)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:50:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\wwwroot\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(73): CActiveRecord->save()
+#3 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#14 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project/create
+---
+2014/09/30 15:50:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'update_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (73)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:50:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'update_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\wwwroot\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(73): CActiveRecord->save()
+#3 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#14 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project/create
+---
+2014/09/30 15:51:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'update_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (73)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:51:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'update_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\wwwroot\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(73): CActiveRecord->save()
+#3 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#14 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project/create
+---
+2014/09/30 15:53:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (73)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:53:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\wwwroot\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(73): CActiveRecord->save()
+#3 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#14 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project/create
+---
+2014/09/30 15:53:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'update_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (73)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:53:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'update_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\wwwroot\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(73): CActiveRecord->save()
+#3 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#14 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project/create
+---
+2014/09/30 15:59:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (73)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:59:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'create_time' at row 1. The SQL statement executed was: INSERT INTO `tbl_project` (`name`, `description`, `create_time`, `create_user_id`, `update_time`, `update_user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in E:\wwwroot\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(73): CActiveRecord->save()
+#3 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionCreate()
+#4 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/create')
+#14 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project/create
+---
+2014/09/30 15:59:59 [warning] [application] Failed to set unsafe attribute "create_time" of "Project".
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (72)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/09/30 15:59:59 [warning] [application] Failed to set unsafe attribute "update_time" of "Project".
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (72)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
