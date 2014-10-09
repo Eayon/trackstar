@@ -38,3 +38,62 @@ create_user_id integer,
 update_time datetime,	
 update_user_id integer
 );
+
+create table IF not exists tbl_issue
+(
+id integer not null primary key auto_increment,
+name varchar(256) not null,
+description varchar(2000),
+project_id integer,
+type_id integer,
+status_id integer,
+owner_id integer,
+requester_id integer,
+create_time datetime,
+create_user_id integer,
+update_time datetime,
+update_user_id integer,
+INDEX(project_id)
+)engine = InnoDB;
+
+create table if not exists tbl_user
+(
+id integer not null primary key auto_increment,
+email varchar(256) not null,
+username varchar(256),
+password varchar(256),
+last_login_time datetime,
+create_time datetime,
+create_user_id integer,
+update_time datetime,
+update_user_id integer
+)engine = InnoDB;
+
+
+create table if not exists tbl_project_user_assignment
+(
+project_id int(11) not null,
+user_id int(11) not null,
+create_time datetime,
+create_user_id integer,
+update_time datetime,
+update_user_id integer,
+primary key(project_id,user_id)
+)engine = innoDB;
+
+alter table tbl_issue add constraint fk_issue_project
+foreign key(project_id) references tbl_project (id)
+on delete cascade on update restrict;
+
+
+
+ALTER TABLE `tbl_issue` ADD CONSTRAINT `FK_issue_owner` FOREIGN KEY (`owner_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT; 
+ALTER TABLE `tbl_issue` ADD CONSTRAINT `FK_issue_requester` FOREIGN KEY (`requester_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT; 
+ALTER TABLE `tbl_project_user_assignment` ADD CONSTRAINT `FK_project_user` FOREIGN KEY (`project_id`) REFERENCES `tbl_project` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT; 
+ALTER TABLE `tbl_project_user_assignment` ADD CONSTRAINT `FK_user_project` FOREIGN KEY (`user_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT; 
+-- Insert some seed data so we can just begin
+INSERT INTO `tbl_user` (`email`, `username`, `password`) VALUES
+('test1@notanaddress.com','Test_User_One', MD5('test1')), 
+('test2@notanaddress.com','Test_User_Two', MD5('test2'));
+
+

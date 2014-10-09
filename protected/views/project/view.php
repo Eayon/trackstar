@@ -13,10 +13,10 @@ $this->menu=array(
 	array('label'=>'Update Project', 'url'=>array('update', 'id'=>$model->id)),
 	array('label'=>'Delete Project', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Manage Project', 'url'=>array('admin')),
+	array('label'=>'Create Issue','url'=>array('Issue/create','pid'=>$model->id)),
 );
 ?>
 
-<h1>View Project #<?php echo $model->id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -29,4 +29,8 @@ $this->menu=array(
 		'update_time',
 		'update_user_id',
 	),
-)); ?>
+));
+
+
+ ?>
+<h1>Project Issues</h1> <?php $this->widget('zii.widgets.CListView', array( 'dataProvider'=>$issueDataProvider, 'itemView'=>'/issue/_view' )); ?>

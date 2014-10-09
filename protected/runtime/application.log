@@ -229,3 +229,1563 @@ in E:\wwwroot\yii\projects\trackstar\index.php (13)
 2014/09/30 15:59:59 [warning] [application] Failed to set unsafe attribute "update_time" of "Project".
 in E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php (72)
 in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/10/08 14:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(202): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/Create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/Create
+---
+2014/10/08 14:55:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(202): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/Create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/Create
+---
+2014/10/08 14:55:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in E:\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('list')
+#1 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#2 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/list')
+#3 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/list
+---
+2014/10/08 14:59:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(202): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/08 14:59:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(202): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create
+---
+2014/10/08 15:00:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(202): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create&pi1d=1
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/08 16:02:55 [error] [exception.CException] exception 'CException' with message 'Property "IssueController.getProject" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_form.php(52): CComponent->__get('getProject')
+#1 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#3 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#4 E:\wwwroot\yii\projects\trackstar\protected\views\issue\create.php(18): CController->renderPartial('_form', Array)
+#5 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#6 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#7 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#8 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#9 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(100): CController->render('create', Array)
+#10 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionCreate()
+#11 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(206): CFilterChain->run()
+#14 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#15 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#24 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create&pid=1
+---
+2014/10/08 16:03:41 [error] [exception.CException] exception 'CException' with message 'Property "IssueController.getProject" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_form.php(52): CComponent->__get('getProject')
+#1 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#3 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#4 E:\wwwroot\yii\projects\trackstar\protected\views\issue\create.php(18): CController->renderPartial('_form', Array)
+#5 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#6 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#7 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#8 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#9 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(100): CController->render('create', Array)
+#10 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionCreate()
+#11 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(206): CFilterChain->run()
+#14 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#15 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#24 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create&pid=1
+---
+2014/10/08 16:04:14 [error] [exception.CException] exception 'CException' with message 'Property "IssueController.getProject" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_form.php(52): CComponent->__get('getProject')
+#1 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#3 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#4 E:\wwwroot\yii\projects\trackstar\protected\views\issue\create.php(18): CController->renderPartial('_form', Array)
+#5 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#6 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#7 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#8 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#9 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(100): CController->render('create', Array)
+#10 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionCreate()
+#11 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(206): CFilterChain->run()
+#14 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#15 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#24 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create&pid=1
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/08 16:05:14 [error] [exception.CException] exception 'CException' with message 'Property "IssueController.getProject" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_form.php(52): CComponent->__get('getProject')
+#1 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#3 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#4 E:\wwwroot\yii\projects\trackstar\protected\views\issue\create.php(18): CController->renderPartial('_form', Array)
+#5 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#6 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#7 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#8 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#9 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(100): CController->render('create', Array)
+#10 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionCreate()
+#11 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(206): CFilterChain->run()
+#14 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#15 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#24 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create&pid=1
+---
+2014/10/08 16:43:45 [error] [exception.CException] exception 'CException' with message 'Property "Project.type_id" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('type_id')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\project\_view.php(20): CActiveRecord->__get('type_id')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(136): CController->render('index', Array)
+#16 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionIndex()
+#17 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#26 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project')
+#27 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project
+---
+2014/10/08 16:44:02 [error] [exception.CException] exception 'CException' with message 'Property "Project.type_id" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('type_id')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\project\_view.php(20): CActiveRecord->__get('type_id')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(136): CController->render('index', Array)
+#16 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): ProjectController->actionIndex()
+#17 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#26 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project')
+#27 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project
+---
+2014/10/08 16:48:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view$id=1".' in E:\wwwroot\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\CController.php(270): CController->missingAction('view$id=1')
+#1 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view$id=1')
+#2 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view$id...')
+#3 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view$id=1
+---
+2014/10/08 16:54:16 [error] [php] Undefined variable: issueDataProvider (E:\wwwroot\yii\projects\trackstar\protected\views\issue\view.php:40)
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\CController.php(869): IssueController->renderFile()
+#1 E:\wwwroot\yii\framework\web\CController.php(782): IssueController->renderPartial()
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): IssueController->runAction()
+#8 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 E:\wwwroot\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterAccessControl()
+#11 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 E:\wwwroot\yii\framework\web\CController.php(265): IssueController->runActionWithFilters()
+#14 E:\wwwroot\yii\framework\web\CWebApplication.php(282): IssueController->run()
+#15 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\wwwroot\yii\projects\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/view&id=4
+in E:\wwwroot\yii\projects\trackstar\protected\views\issue\view.php (40)
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php (75)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/10/08 16:54:39 [error] [php] Undefined variable: issueDataProvider (E:\wwwroot\yii\projects\trackstar\protected\views\issue\view.php:40)
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\CController.php(869): IssueController->renderFile()
+#1 E:\wwwroot\yii\framework\web\CController.php(782): IssueController->renderPartial()
+#2 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(75): IssueController->render()
+#3 unknown(0): IssueController->actionView()
+#4 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): IssueController->runAction()
+#8 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 E:\wwwroot\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterAccessControl()
+#11 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 E:\wwwroot\yii\framework\web\CController.php(265): IssueController->runActionWithFilters()
+#14 E:\wwwroot\yii\framework\web\CWebApplication.php(282): IssueController->run()
+#15 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\wwwroot\yii\projects\trackstar\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/view&id=5
+in E:\wwwroot\yii\projects\trackstar\protected\views\issue\view.php (40)
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php (75)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/10/08 16:55:05 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\issue\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(149): CController->render('index', Array)
+#16 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionIndex()
+#17 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#26 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#27 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/08 16:55:09 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\issue\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(149): CController->render('index', Array)
+#16 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionIndex()
+#17 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#26 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#27 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/08 16:56:09 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\view.php(36): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(64): CController->render('view', Array)
+#16 [internal function]: ProjectController->actionView('1')
+#17 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#18 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#19 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#28 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#29 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view&id=1
+---
+2014/10/08 16:56:13 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\issue\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(149): CController->render('index', Array)
+#16 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionIndex()
+#17 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#24 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#26 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#27 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/08 16:57:49 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\view.php(36): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(64): CController->render('view', Array)
+#16 [internal function]: ProjectController->actionView('1')
+#17 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#18 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#19 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#28 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#29 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view&id=1
+---
+2014/10/08 16:58:48 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\view.php(36): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(64): CController->render('view', Array)
+#16 [internal function]: ProjectController->actionView('1')
+#17 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#18 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#19 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#28 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#29 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view&id=1
+---
+2014/10/08 16:58:50 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\view.php(36): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(64): CController->render('view', Array)
+#16 [internal function]: ProjectController->actionView('1')
+#17 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#18 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#19 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#28 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#29 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view&id=1
+---
+2014/10/08 16:58:51 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\view.php(36): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(64): CController->render('view', Array)
+#16 [internal function]: ProjectController->actionView('1')
+#17 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#18 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#19 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#28 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#29 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view&id=1
+---
+2014/10/08 16:58:57 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\view.php(36): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(64): CController->render('view', Array)
+#16 [internal function]: ProjectController->actionView('1')
+#17 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#18 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#19 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#28 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#29 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view&id=1
+---
+2014/10/08 16:59:42 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\view.php(36): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(64): CController->render('view', Array)
+#16 [internal function]: ProjectController->actionView('1')
+#17 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#18 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#19 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#28 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#29 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view&id=1
+---
+2014/10/08 16:59:54 [error] [exception.CException] exception 'CException' with message 'Property "Issue.description" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(15): CActiveRecord->__get('description')
+#2 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#4 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#5 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 E:\wwwroot\yii\projects\trackstar\protected\views\project\view.php(36): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#13 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#15 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(64): CController->render('view', Array)
+#16 [internal function]: ProjectController->actionView('1')
+#17 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#18 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#19 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#28 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#29 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view&id=1
+---
+2014/10/08 17:16:07 [error] [exception.CException] exception 'CException' with message 'Property "Issue.statusOptions" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('statusOptions')
+#1 E:\wwwroot\yii\projects\trackstar\protected\models\Issue.php(149): CActiveRecord->__get('statusOptions')
+#2 E:\wwwroot\yii\projects\trackstar\protected\views\issue\_view.php(25): Issue->getStatusText()
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(130): require('E:\wwwroot\yii\...')
+#4 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, false)
+#5 E:\wwwroot\yii\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('E:\wwwroot\yii\...', Array)
+#6 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#7 [internal function]: CBaseListView->renderSection(Array)
+#8 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#9 E:\wwwroot\yii\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#10 E:\wwwroot\yii\framework\web\CBaseController.php(173): CBaseListView->run()
+#11 E:\wwwroot\yii\projects\trackstar\protected\views\project\view.php(36): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#13 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#14 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#15 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#16 E:\wwwroot\yii\projects\trackstar\protected\controllers\ProjectController.php(64): CController->render('view', Array)
+#17 [internal function]: ProjectController->actionView('1')
+#18 E:\wwwroot\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#19 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#20 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#21 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#22 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#23 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#27 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#29 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/view')
+#30 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#31 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=project/view&id=1
+---
+2014/10/08 17:31:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\wwwroot\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\wwwroot\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/admin')
+#9 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/admin
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=site/login
+---
+2014/10/08 17:33:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\wwwroot\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\wwwroot\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/admin')
+#9 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/admin
+---
+2014/10/09 09:10:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\wwwroot\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\wwwroot\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/admin')
+#9 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/admin
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=site/login
+---
+2014/10/09 09:11:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\wwwroot\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\wwwroot\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/admin')
+#9 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/admin
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=site/login
+---
+2014/10/09 09:12:03 [error] [exception.CException] exception 'CException' with message 'Property "Issue.decription" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('decription')
+#1 E:\wwwroot\yii\projects\trackstar\protected\models\Issue.php(113): CActiveRecord->__get('decription')
+#2 E:\wwwroot\yii\projects\trackstar\protected\views\issue\admin.php(45): Issue->search()
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#4 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#5 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#6 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#7 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(164): CController->render('admin', Array)
+#8 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionAdmin()
+#9 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/admin')
+#19 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/admin
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=site/login
+---
+2014/10/09 09:14:06 [error] [exception.CException] exception 'CException' with message 'Property "Issue.decription" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('decription')
+#1 E:\wwwroot\yii\projects\trackstar\protected\models\Issue.php(113): CActiveRecord->__get('decription')
+#2 E:\wwwroot\yii\projects\trackstar\protected\views\issue\admin.php(45): Issue->search()
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#4 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#5 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#6 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#7 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(164): CController->render('admin', Array)
+#8 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionAdmin()
+#9 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/admin')
+#19 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/admin
+---
+2014/10/09 09:14:36 [error] [exception.CException] exception 'CException' with message 'Property "Issue.decription" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('decription')
+#1 E:\wwwroot\yii\projects\trackstar\protected\models\Issue.php(113): CActiveRecord->__get('decription')
+#2 E:\wwwroot\yii\projects\trackstar\protected\views\issue\admin.php(45): Issue->search()
+#3 E:\wwwroot\yii\framework\web\CBaseController.php(126): require('E:\wwwroot\yii\...')
+#4 E:\wwwroot\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\yii\...', Array, true)
+#5 E:\wwwroot\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\wwwroot\yii\...', Array, true)
+#6 E:\wwwroot\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#7 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(164): CController->render('admin', Array)
+#8 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): IssueController->actionAdmin()
+#9 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/admin')
+#19 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/admin
+---
+2014/10/09 09:35:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(204): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 09:35:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(204): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 10:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(201): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/09 10:07:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/09 10:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in E:\wwwroot\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=user
+---
+2014/10/09 11:12:10 [error] [exception.CException] exception 'CException' with message 'Property "User.crete_user_id" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('crete_user_id', 'demo')
+#1 E:\wwwroot\yii\projects\trackstar\protected\models\TrackStarActiveRecord.php(12): CActiveRecord->__set('crete_user_id', 'demo')
+#2 E:\wwwroot\yii\framework\base\CModel.php(156): TrackStarActiveRecord->beforeValidate()
+#3 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 E:\wwwroot\yii\projects\trackstar\protected\controllers\UserController.php(73): CActiveRecord->save()
+#5 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#6 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#16 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=user/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=user/create
+---
+2014/10/09 11:12:23 [error] [exception.CException] exception 'CException' with message 'Property "User.crete_user_id" is not defined.' in E:\wwwroot\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('crete_user_id', 'demo')
+#1 E:\wwwroot\yii\projects\trackstar\protected\models\TrackStarActiveRecord.php(12): CActiveRecord->__set('crete_user_id', 'demo')
+#2 E:\wwwroot\yii\framework\base\CModel.php(156): TrackStarActiveRecord->beforeValidate()
+#3 E:\wwwroot\yii\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 E:\wwwroot\yii\projects\trackstar\protected\controllers\UserController.php(73): CActiveRecord->save()
+#5 E:\wwwroot\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#6 E:\wwwroot\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#15 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#16 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=user/create
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=user/create
+---
+2014/10/09 11:22:47 [warning] [application] Failed to set unsafe attribute "password_repeat" of "User".
+in E:\wwwroot\yii\projects\trackstar\protected\controllers\UserController.php (72)
+in E:\wwwroot\yii\projects\trackstar\index.php (13)
+2014/10/09 16:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/09 16:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/09 16:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/09 16:00:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:04:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=site/login
+---
+2014/10/09 16:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/index')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/index
+---
+2014/10/09 16:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create
+---
+2014/10/09 16:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create
+---
+2014/10/09 16:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create
+---
+2014/10/09 16:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create
+---
+2014/10/09 16:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create
+---
+2014/10/09 16:05:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create
+---
+2014/10/09 16:05:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/create')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/create
+---
+2014/10/09 16:05:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/09 16:05:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\wwwroot\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/view')
+#10 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/view
+---
+2014/10/09 16:08:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\wwwroot\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/view')
+#10 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/view&0=
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project
+---
+2014/10/09 16:08:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\wwwroot\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/view')
+#10 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/view&0=
+HTTP_REFERER=http://localhost/yii/projects/trackstar/index.php?r=project
+---
+2014/10/09 16:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested project does not exist' in E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php:20
+Stack trace:
+#0 E:\wwwroot\yii\projects\trackstar\protected\controllers\IssueController.php(208): IssueController->loadProject(NULL)
+#1 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): IssueController->filterProjectContext(Object(CFilterChain))
+#2 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#3 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue')
+#11 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue
+---
+2014/10/09 16:11:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\wwwroot\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\wwwroot\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 E:\wwwroot\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\wwwroot\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\wwwroot\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\wwwroot\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\wwwroot\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\wwwroot\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\wwwroot\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 E:\wwwroot\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('issue/view')
+#10 E:\wwwroot\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\wwwroot\yii\projects\trackstar\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/projects/trackstar/index.php?r=issue/view
+---
