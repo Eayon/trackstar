@@ -23,9 +23,13 @@ abstract class TrackStarActiveRecord extends CActiveRecord
 	protected function afterValidate()
 	{
 
-		parent::afterValidate(); $this->password = $this->encrypt($this->password);
+		parent::afterValidate(); 
+		//$this->password = $this->encrypt($this->password);
 	}
 
-	public function encrypt($value) { return md5($value); }
+	public function encrypt($value) 
+	{ 
+		return md5($value); 
+	}
 }
  ?>

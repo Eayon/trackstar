@@ -59,7 +59,6 @@
 		<?php echo $form->error($model,'requester_id'); ?>
 	</div>
 
-
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

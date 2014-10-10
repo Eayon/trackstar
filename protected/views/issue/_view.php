@@ -23,4 +23,5 @@
 		<?php echo CHtml::encode($data->getAttributeLabel('status_id')); ?>:
 </b> 
 		<?php echo CHtml::encode($data->getStatusText()); ?> 
+		
 </div>

@@ -14,7 +14,16 @@ $this->menu=array(
 	array('label'=>'Delete Project', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Manage Project', 'url'=>array('admin')),
 	array('label'=>'Create Issue','url'=>array('Issue/create','pid'=>$model->id)),
+	//array('label'=>'Add User To Project','url'=>array('adduser','id'=>$model->id)),
 );
+
+if(Yii::app()->user->checkAccess('createUser',array('project'=>$model))) 
+{
+	 $this->menu[] = array(
+	  'label'=>'Add User To Project',
+	   'url'=>array('adduser', 'id'=>$model->id) 
+	   ); 
+}
 ?>
 
 
@@ -33,4 +42,5 @@ $this->menu=array(
 
 
  ?>
-<h1>Project Issues</h1> <?php $this->widget('zii.widgets.CListView', array( 'dataProvider'=>$issueDataProvider, 'itemView'=>'/issue/_view' )); ?>
+<h1>Project Issues</h1> 
+<?php $this->widget('zii.widgets.CListView', array( 'dataProvider'=>$issueDataProvider, 'itemView'=>'/issue/_view' )); ?>
